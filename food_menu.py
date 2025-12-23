@@ -7,4 +7,5 @@ food_menu = [
 for i in range(len(food_menu)):
     food_set_menu = food_menu[i]
 
-    
+    for j in food_set_menu:
+        print(j)
