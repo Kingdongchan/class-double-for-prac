@@ -11,4 +11,7 @@ for i in range(len(store)):
     for j in store_type:
         store_in_object = store_type[j]
 
-        # print(store_in_object)
+        for z in range(len(store_in_object)):
+            store_in_object_name = store_in_object[z]
+
+            print(f"위치 [{i}][{z}] -> {store_in_object_name}")
