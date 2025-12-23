@@ -8,4 +8,9 @@ for i in range(len(food_menu)):
     food_set_menu = food_menu[i]
 
     for j in food_set_menu:
-        print(j)
+        food_menu_in_menu = food_set_menu[j]
+
+        for z in range(len(food_menu_in_menu)):
+            setmenu_indi = food_menu_in_menu[z]
+
+            print(setmenu_indi)
